@@ -1,5 +1,7 @@
 # CodeEditText
 
+![preview](https://user-images.githubusercontent.com/14817735/198873382-74161f3c-9faa-4ba0-86db-5b57b16cf695.jpg)
+
 ## 声明依赖项
 
 在项目根目录的 build.gradle 中添加 JitPack 仓库
