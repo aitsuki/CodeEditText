@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CodeEditText">
+        <attr name="boxSpacing" format="dimension" />
+        <attr name="boxPadding" format="dimension" />
+        <attr name="boxRadius" format="dimension"/>
+        <attr name="boxRatio" format="float" />
+        <attr name="boxStroke" format="dimension" />
+        <attr name="boxColor" format="color" />
+        <attr name="boxStrokeColor" format="color" />
+        <attr name="boxStrokeFocusedColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/spacing_16"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:showDividers="middle"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default" />
+
+    <com.aitsuki.widget.CodeEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="123456" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom" />
+
+    <com.aitsuki.widget.CodeEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="#000"
+        android:textSize="32sp"
+        app:boxColor="#ebebeb"
+        app:boxRadius="8dp"
+        app:boxRatio="0.92"
+        app:boxSpacing="16dp"
+        app:boxStroke="2dp"
+        app:boxStrokeColor="#cccccc"
+        app:boxStrokeFocusedColor="#03A9F4" />
+
+</LinearLayout>
