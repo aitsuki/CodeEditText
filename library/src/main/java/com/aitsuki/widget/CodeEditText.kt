@@ -7,7 +7,6 @@ import android.graphics.Paint
 import android.text.InputFilter
 import android.text.InputFilter.LengthFilter
 import android.util.AttributeSet
-import android.util.Log
 import android.widget.EditText
 import com.aitsuki.view.R
 import kotlin.math.roundToInt
@@ -41,10 +40,13 @@ class CodeEditText @JvmOverloads constructor(
     init {
         background = null
         setPadding(0, 0, 0, 0)
+        setTextIsSelectable(false)
         movementMethod = null
+        isLongClickable = false
         isCursorVisible = false
         maxLines = 1
         isSingleLine = false
+        setSelection(0)
 
         var maxLength = getMaxLength()
         if (maxLength == -1) {
