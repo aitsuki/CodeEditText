@@ -47,7 +47,6 @@ class CodeEditText @JvmOverloads constructor(
         isSingleLine = false
 
         var maxLength = getMaxLength()
-        Log.d("123123123", "$maxLength")
         if (maxLength == -1) {
             maxLength = DEFAULT_BOX_COUNT
             setMaxLength(maxLength)
